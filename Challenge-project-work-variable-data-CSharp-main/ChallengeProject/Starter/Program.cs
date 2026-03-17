@@ -1,6 +1,4 @@
-﻿// Final
-
-// ourAnimals array will store the following: 
+﻿// ourAnimals array will store the following: 
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
@@ -81,7 +79,7 @@ for (int i = 0; i < maxPets; i++)
     ourAnimals[i, 3] = "Nickname: " + animalNickname;
     ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription;
     ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
-    
+
     if (!decimal.TryParse(suggestedDonation, out decimalDonation))
     {
         decimalDonation = 45.00m; // if suggestedDonation NOT a number, default to 45.00
@@ -158,7 +156,7 @@ do
 
             Array.Sort(dogSearches);
             // #4 update to "rotating" animation with countdown
-            string[] searchingIcons = {" |", " /", "--", " \\", " *"};
+            string[] searchingIcons = { " |", " /", "--", " \\", " *" };
 
             bool matchesAnyDog = false;
             string dogDescription = "";
@@ -178,7 +176,7 @@ do
                         // only search if there is a term to search for
                         if (term != null && term.Trim() != "")
                         {
-                            for (int j = 2; j > -1 ; j--)
+                            for (int j = 2; j > -1; j--)
                             {
                                 // #5 update "searching" message to show countdown
                                 foreach (string icon in searchingIcons)
@@ -186,7 +184,7 @@ do
                                     Console.Write($"\rsearching our dog {ourAnimals[i, 3]} for {term.Trim()} {icon} {j.ToString()}");
                                     Thread.Sleep(100);
                                 }
-                                
+
                                 Console.Write($"\r{new String(' ', Console.BufferWidth)}");
                             }
 
@@ -202,7 +200,7 @@ do
                             }
                         }
                     }
-                    
+
                     // #3d if the current dog is match, display the dog's info
                     if (matchesCurrentDog)
                     {
@@ -224,5 +222,5 @@ do
         default:
             break;
     }
-} 
+}
 while (menuSelection != "exit");
