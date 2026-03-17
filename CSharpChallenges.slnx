@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/Challenge-project-branching-looping-CSharp-main/" />
+  <Folder Name="/Challenge-project-branching-looping-CSharp-main/ChallengeProject/">
+    <Project Path="Challenge-project-branching-looping-CSharp-main/ChallengeProject/Final/Final.csproj" />
+    <Project Path="Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/Starter.csproj" />
+  </Folder>
+  <Folder Name="/Challenge-project-Create-methods-in-CSharp-main/" />
+  <Folder Name="/Challenge-project-Create-methods-in-CSharp-main/ChallengeProject/">
+    <Project Path="Challenge-project-Create-methods-in-CSharp-main/ChallengeProject/Final/Final.csproj" />
+    <Project Path="Challenge-project-Create-methods-in-CSharp-main/ChallengeProject/Starter/Starter.csproj" />
+  </Folder>
+  <Folder Name="/Challenge-project-debugging-CSharp-main/" />
+  <Folder Name="/Challenge-project-debugging-CSharp-main/ChallengeProject/">
+    <Project Path="Challenge-project-debugging-CSharp-main/ChallengeProject/Final/Final.csproj" />
+    <Project Path="Challenge-project-debugging-CSharp-main/ChallengeProject/Starter/Starter.csproj" />
+  </Folder>
+  <Folder Name="/Challenge-project-foreach-if-array-CSharp-main/" />
+  <Folder Name="/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/">
+    <Project Path="Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Final/Final.csproj" />
+    <Project Path="Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/Starter.csproj" />
+  </Folder>
+  <Folder Name="/Challenge-project-work-variable-data-CSharp-main/" />
+  <Folder Name="/Challenge-project-work-variable-data-CSharp-main/ChallengeProject/">
+    <Project Path="Challenge-project-work-variable-data-CSharp-main/ChallengeProject/Final/Final.csproj" />
+    <Project Path="Challenge-project-work-variable-data-CSharp-main/ChallengeProject/Starter/Starter.csproj" />
+  </Folder>
+</Solution>
